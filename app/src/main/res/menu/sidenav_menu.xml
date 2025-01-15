@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/sidenav_home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item android:title="Exercises"
+            android:icon="@drawable/ic_exercise_svgrepo_com"
+            android:id="@+id/sidenav_activity"/>
+        <item android:title="Eye Care"
+            android:icon="@drawable/ic_baseline_remove_red_eye_24"
+            android:id="@+id/sidenav_eye"/>
+        <item android:title="Pedometer"
+            android:icon="@drawable/ic_running_man_silhouette_svgrepo_com"
+            android:id="@+id/sidenav_pedo"/>
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:title="Log Out"
+                android:id="@+id/sidenav_signOut"
+                android:icon="@drawable/ic_baseline_exit_to_app_24" />
+                <item android:title="Profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:id="@+id/sidenav_profile"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Update">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Check for Updates"
+                    android:icon="@drawable/ic_baseline_security_update_24"
+                    android:id="@+id/sidenav_update"/>
+
+            </group>
+        </menu>
+    </item>
+
+        <item android:title="Info">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item android:title="About"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:id="@+id/sidenav_about"/>
+
+                </group>
+            </menu>
+        </item>
+
+</menu>
